@@ -1,0 +1,101 @@
+ChurnID,CustomerID,ChurnDate,Reason
+1,22,02-01-2024,Poor Customer Service
+2,56,06-06-2024,High Prices
+3,45,10-10-2024,Product Quality Issues
+4,54,12-12-2024,Lack of Product Features
+5,82,14-02-2024,Competitor Offerings
+6,67,15-01-2024,Inconvenience
+7,17,21-01-2024,Lack of Engagement
+8,33,18-01-2024,Unmet Expectations
+9,91,20-01-2024,Price Increases
+10,23,23-01-2024,Personal Circumstances
+11,27,26-01-2024,Poor Customer Service
+12,72,28-01-2024,High Prices
+13,31,14-02-2024,Product Quality Issues
+14,50,19-02-2024,Lack of Product Features
+15,123,03-05-2024,Competitor Offerings
+16,185,06-05-2024,Inconvenience
+17,130,10-05-2024,Lack of Engagement
+18,186,07-05-2024,Unmet Expectations
+19,173,25-04-2024,Price Increases
+20,25,24-01-2024,Personal Circumstances
+21,72,28-02-2024,Poor Customer Service
+22,27,26-02-2024,High Prices
+23,186,07-05-2024,Product Quality Issues
+24,78,28-02-2024,Lack of Product Features
+25,202,25-08-2024,Competitor Offerings
+26,105,15-04-2024,Inconvenience
+27,22,02-01-2024,Lack of Engagement
+28,105,15-04-2024,Unmet Expectations
+29,131,10-05-2024,Price Increases
+30,69,20-04-2024,Personal Circumstances
+31,137,16-05-2024,Poor Customer Service
+32,35,17-02-2024,High Prices
+33,115,25-04-2024,Product Quality Issues
+34,16,16-01-2024,Lack of Product Features
+35,29,24-01-2024,Competitor Offerings
+36,168,19-04-2024,Inconvenience
+37,120,30-04-2024,Lack of Engagement
+38,103,13-04-2024,Unmet Expectations
+39,56,06-05-2024,Price Increases
+40,172,23-04-2024,Personal Circumstances
+41,81,12-02-2024,Poor Customer Service
+42,115,25-04-2024,High Prices
+43,104,14-04-2024,Product Quality Issues
+44,132,11-05-2024,Lack of Product Features
+45,60,10-04-2024,Competitor Offerings
+46,134,14-05-2024,Inconvenience
+47,128,07-05-2024,Lack of Engagement
+48,140,20-05-2024,Unmet Expectations
+49,57,05-04-2024,Price Increases
+50,42,30-03-2024,Personal Circumstances
+51,34,25-01-2024,Poor Customer Service
+52,108,21-05-2024,High Prices
+53,14,14-01-2024,Product Quality Issues
+54,117,27-05-2024,Lack of Product Features
+55,158,09-04-2024,Competitor Offerings
+56,76,09-05-2024,Inconvenience
+57,31,14-01-2024,Lack of Engagement
+58,40,06-02-2024,Unmet Expectations
+59,123,03-05-2024,Price Increases
+60,113,22-04-2024,Personal Circumstances
+61,102,12-04-2024,Poor Customer Service
+62,95,15-05-2024,High Prices
+63,46,25-04-2024,Product Quality Issues
+64,137,16-05-2024,Lack of Product Features
+65,93,13-05-2024,Competitor Offerings
+66,150,30-05-2024,Inconvenience
+67,78,23-05-2024,Lack of Engagement
+68,124,04-05-2024,Unmet Expectations
+69,108,10-05-2024,Price Increases
+70,147,27-05-2024,Personal Circumstances
+71,43,15-01-2024,Poor Customer Service
+72,44,14-01-2024,High Prices
+73,107,19-04-2024,Product Quality Issues
+74,68,04-02-2024,Lack of Product Features
+75,54,12-12-2024,Competitor Offerings
+76,97,18-05-2024,Inconvenience
+77,33,18-01-2024,Lack of Engagement
+78,76,09-05-2024,Unmet Expectations
+79,62,09-02-2024,Price Increases
+80,29,24-01-2024,Personal Circumstances
+81,104,14-04-2024,Poor Customer Service
+82,109,20-04-2024,High Prices
+83,55,05-04-2024,Product Quality Issues
+84,30,30-01-2024,Lack of Product Features
+85,89,09-05-2024,Competitor Offerings
+86,105,15-04-2024,Inconvenience
+87,87,04-04-2024,Lack of Engagement
+88,72,28-01-2024,Unmet Expectations
+89,79,04-02-2024,Price Increases
+90,25,24-01-2024,Personal Circumstances
+91,132,11-05-2024,Poor Customer Service
+92,40,06-02-2024,High Prices
+93,113,22-04-2024,Product Quality Issues
+94,133,13-05-2024,Lack of Product Features
+95,105,15-04-2024,Competitor Offerings
+96,66,11-04-2024,Inconvenience
+97,37,26-01-2024,Lack of Engagement
+98,136,16-05-2024,Unmet Expectations
+99,143,22-05-2024,Price Increases
+100,145,24-05-2024,Personal Circumstances
