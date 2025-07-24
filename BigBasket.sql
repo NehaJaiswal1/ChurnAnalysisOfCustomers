@@ -15,7 +15,7 @@ select FirstName,LastName,Status from customers;
 select * from customers where Region = 'North America';
 
 -- 4. Find out those customers whose status = Active
-select * from customers where Status = "Active";
+select count(*) from customers where Status = "Active";
 
 -- 5. How many customers are there who joined 'jan-01-2001'
 select count(*) from customers where JoinDate>'01-01-2001';
@@ -24,8 +24,28 @@ select count(*) from customers where JoinDate>'01-01-2001';
 -- 6. List down the active customers from europe
 select * from customers where Status = 'Active' and Region = 'Europe';
 
+-- update date format:
+SET SQL_SAFE_UPDATES=0;
+
+UPDATE customers
+SET JoinDate = STR_TO_DATE(JoinDate,'%d-%m-%Y')
+WHERE JoinDate LIKE '%-%-%';
+
+UPDATE transactions
+SET TransactionDate = STR_TO_DATE(TransactionDate,'%d-%m-%Y')
+WHERE TransactionDate LIKE '%-%-%';
+
 -- 7. Find out how many customers had joined in year 2001.
-select count(*) from customers where JoinDate between '2001-01-01' and '2001-12-31';
+select count(*) from customers where Year(JoinDate) = 2021 ;
+
+-- 8. Count number of customers who are having email id containing 'example'.
+select count(*) as example_count_email from customers where email LIKE '%example%';
+
+-- 9. Retreive number of customer who are having annual subscription plan.
+select count( distinct CustomerID) from subscriptions where PlanType = 'Annual'; 
+
+-- 10. Retrive all transactions where the amount is greater than $100. 
+select * from transactions where Amount > 100;
 
 -- 11. calculate average amount of all transaction
 select avg(amount) from transactions;
@@ -93,13 +113,13 @@ select count(*) from neha;
 
 
 -- 22. How many transactions made in last 6 month.
-select 
+SELECT COUNT(*) AS transactions_last_6_months
+FROM transactions
+WHERE DATEDIFF(CURDATE(), TransactionDate) <= 180;
 
 
--- 25. How many customers are there who do not have any subscription.
-select count(customerID) from customers 
-where customerid not in
-(select customerid from subscriptions);
+-- 23. How many customers are there who do not have any subscription.
+select count(customerID) from customers where customerid not in(select customerid from subscriptions);
 
 
  
